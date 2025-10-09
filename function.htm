@@ -5,14 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
+        
     function frist() {
         document.write("Hello, World!");
         console.log("Hello, World!");
     }
+    
+    function second() {
+        document.getElementById("test").innerHTML = "solanki";
+        console.log("vijay");
+    }
+
     </script>
 </head>
 <body>
         <div id="test"></div>
         <button onclick="frist()">Click Me</button>
+        <button onclick="second()">this will print both console and innerHTML</button>
 </body>
 </html>
